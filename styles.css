@@ -1,0 +1,120 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Karla';
+    font-size: 16px;
+}
+
+h2, h4, p {
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 100px;
+}
+
+#card {
+    width: 600px;
+    height: 400px;
+    border: 2px solid lightgrey;
+    box-shadow: 2px 3px 7px lightgrey;
+    border-radius: 5px;
+    overflow: hidden; /* apply to bottom borders*/
+}
+
+#topbox {
+    width: 100%;
+    height: 45%;
+    padding: 25px;
+}
+
+#topbox h2 {
+    color: #2ab2af;
+    margin-bottom: 15px;
+}
+
+#topbox h4 {
+    color: #c0df34;
+    margin-bottom: 5px;
+}
+
+#topbox p {
+    color: #98a6bd;
+}
+
+#bottombox {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    color: white;
+}
+
+#bottomleftbox {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    background-color: #2ab2af;
+    padding: 20px;
+}
+
+#bottomleftbox h4 {
+    margin-bottom: 25px;
+}
+
+#price-frequency, #price {
+    display: inline-block;
+}
+
+#price-frequency {
+    position: relative;
+    top: -3px;
+    font-size: 0.8 rem;
+    opacity: 0.7;
+    margin-left: 5px;
+}
+
+#price {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+button {
+    color: white;
+    background-color: #c0df34;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #A9C42D;
+    transform: scale(1.02)
+}
+
+#bottomleftbox p {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+}
+
+#bottomrightbox {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    background-color: #2EBFBD;
+    padding: 20px; /* Bring Text inwards */
+}
+
+#bottomrightbox ul {
+    padding: 0;
+    list-style: none;
+    opacity: 0.8;
+    font-size: 0.9em;
+}
